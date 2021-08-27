@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.0.7-sdk-2.1.200
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2.300
 # Install
 COPY ./sources.list /etc/apt/sources.list
 RUN  ln -s /lib/x86_64-linux-gnu/libdl.so.2 /lib/x86_64-linux-gnu/libdl.so \
